@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5860323E4D44ED55F5E893EC /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58603B7069DC8CE8CF8C62EE /* MasterViewController.swift */; };
+		586032D02FD35A9D1E676E50 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58603288D2B9AFBF26AA507E /* DetailViewController.swift */; };
+		586034B53871F26E923C94A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58603AAB1DF5B10228497BC3 /* Main.storyboard */; };
+		586035AE42A7C7EC7BC949B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58603DDE48F3ABF72F4E5C7B /* LaunchScreen.storyboard */; };
+		586036BE7E3139C509AADFC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586034A443188D3AD70C987F /* AppDelegate.swift */; };
+		5860374D0B6134A523D037C0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5860395A61FF80534B28F7AC /* Info.plist */; };
+		586038650FD7FCD4647350E1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5860317BE5FF6E3EBE93DBBE /* Info.plist */; };
+		58603A046E9AA94DD1944732 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 586031848D37586B12EA3FAF /* Info.plist */; };
+		58603EC2E35C14183588A66E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58603119ED013B24E3E1B882 /* Assets.xcassets */; };
+		58603F7826B3925BD5BB8D3A /* MyDiabloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586036EF2B079DB12AFDB06D /* MyDiabloUITests.swift */; };
+		58603F9D31F83BB5ECA38A3B /* MyDiabloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58603919D684E7B675C752AC /* MyDiabloTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		586036BE4DA85C41B0140A4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5860340C804C2A1CFE738C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58603A9C2F43CD3DD220738D;
+			remoteInfo = MyDiablo;
+		};
+		58603A87088154667D047BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5860340C804C2A1CFE738C73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58603A9C2F43CD3DD220738D;
+			remoteInfo = MyDiablo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58603096C84AFF0D74D90B23 /* MyDiabloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDiabloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		586030E506FA7AAB410B5A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58603119ED013B24E3E1B882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5860317BE5FF6E3EBE93DBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		586031848D37586B12EA3FAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		58603288D2B9AFBF26AA507E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		586034A443188D3AD70C987F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		586035EA0A78B19F14C04CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		586036EF2B079DB12AFDB06D /* MyDiabloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDiabloUITests.swift; sourceTree = "<group>"; };
+		586037710E7CC409BAF54BD7 /* MyDiabloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDiabloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58603919D684E7B675C752AC /* MyDiabloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDiabloTests.swift; sourceTree = "<group>"; };
+		5860395A61FF80534B28F7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		58603B7069DC8CE8CF8C62EE /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		58603CAFE933BB4E10C85596 /* MyDiablo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDiablo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		586033EBA0C6C4E858391C83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5860386F5625E1A754EA58AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58603CE35D5AFC9B8D2168F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		586031777A2F3102351EACD0 /* MyDiabloTests */ = {
+			isa = PBXGroup;
+			children = (
+				5860317BE5FF6E3EBE93DBBE /* Info.plist */,
+				58603919D684E7B675C752AC /* MyDiabloTests.swift */,
+			);
+			path = MyDiabloTests;
+			sourceTree = "<group>";
+		};
+		586032417A24703F5C5DC56F /* MyDiabloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5860395A61FF80534B28F7AC /* Info.plist */,
+				586036EF2B079DB12AFDB06D /* MyDiabloUITests.swift */,
+			);
+			path = MyDiabloUITests;
+			sourceTree = "<group>";
+		};
+		58603A70B68DFEFACEF43EE3 /* MyDiablo */ = {
+			isa = PBXGroup;
+			children = (
+				586031848D37586B12EA3FAF /* Info.plist */,
+				58603119ED013B24E3E1B882 /* Assets.xcassets */,
+				58603DDE48F3ABF72F4E5C7B /* LaunchScreen.storyboard */,
+				586034A443188D3AD70C987F /* AppDelegate.swift */,
+				58603AAB1DF5B10228497BC3 /* Main.storyboard */,
+				58603B7069DC8CE8CF8C62EE /* MasterViewController.swift */,
+				58603288D2B9AFBF26AA507E /* DetailViewController.swift */,
+			);
+			path = MyDiablo;
+			sourceTree = "<group>";
+		};
+		58603BA57B29DFEF2CB8F9DF = {
+			isa = PBXGroup;
+			children = (
+				58603CE2476EC094BEF2AF24 /* Products */,
+				58603A70B68DFEFACEF43EE3 /* MyDiablo */,
+				586031777A2F3102351EACD0 /* MyDiabloTests */,
+				586032417A24703F5C5DC56F /* MyDiabloUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		58603CE2476EC094BEF2AF24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58603CAFE933BB4E10C85596 /* MyDiablo.app */,
+				58603096C84AFF0D74D90B23 /* MyDiabloTests.xctest */,
+				586037710E7CC409BAF54BD7 /* MyDiabloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5860397BA5BA0E1F80B91576 /* MyDiabloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58603E1AAD6D6840CD9E68B2 /* Build configuration list for PBXNativeTarget "MyDiabloUITests" */;
+			buildPhases = (
+				586035273CACA1E5DC4880CD /* Sources */,
+				586033EBA0C6C4E858391C83 /* Frameworks */,
+				586035A4B907D81B65DC7492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				586035487B185D3590B0EBB2 /* PBXTargetDependency */,
+			);
+			name = MyDiabloUITests;
+			productName = MyDiabloUITests;
+			productReference = 586037710E7CC409BAF54BD7 /* MyDiabloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		58603A1AE51EB8A44A1D557A /* MyDiabloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58603E0AE780C39EBE842F2A /* Build configuration list for PBXNativeTarget "MyDiabloTests" */;
+			buildPhases = (
+				586039E373803FE81F690AAA /* Sources */,
+				5860386F5625E1A754EA58AF /* Frameworks */,
+				58603FE7805DE7CCFE3EC392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58603607B8A1D122D1B22D36 /* PBXTargetDependency */,
+			);
+			name = MyDiabloTests;
+			productName = MyDiabloTests;
+			productReference = 58603096C84AFF0D74D90B23 /* MyDiabloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58603A9C2F43CD3DD220738D /* MyDiablo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5860398127692BF8E1488614 /* Build configuration list for PBXNativeTarget "MyDiablo" */;
+			buildPhases = (
+				58603E1E1CD67DA0C32605A7 /* Sources */,
+				58603CE35D5AFC9B8D2168F6 /* Frameworks */,
+				586037562E7D4CE993B4E8EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDiablo;
+			productName = MyDiablo;
+			productReference = 58603CAFE933BB4E10C85596 /* MyDiablo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5860340C804C2A1CFE738C73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Lego;
+			};
+			buildConfigurationList = 586031D78C86237E49C38523 /* Build configuration list for PBXProject "MyDiablo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58603BA57B29DFEF2CB8F9DF;
+			productRefGroup = 58603CE2476EC094BEF2AF24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58603A9C2F43CD3DD220738D /* MyDiablo */,
+				58603A1AE51EB8A44A1D557A /* MyDiabloTests */,
+				5860397BA5BA0E1F80B91576 /* MyDiabloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		586035A4B907D81B65DC7492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5860374D0B6134A523D037C0 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586037562E7D4CE993B4E8EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58603A046E9AA94DD1944732 /* Info.plist in Resources */,
+				58603EC2E35C14183588A66E /* Assets.xcassets in Resources */,
+				586035AE42A7C7EC7BC949B3 /* LaunchScreen.storyboard in Resources */,
+				586034B53871F26E923C94A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58603FE7805DE7CCFE3EC392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586038650FD7FCD4647350E1 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		586035273CACA1E5DC4880CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58603F7826B3925BD5BB8D3A /* MyDiabloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586039E373803FE81F690AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58603F9D31F83BB5ECA38A3B /* MyDiabloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58603E1E1CD67DA0C32605A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586036BE7E3139C509AADFC3 /* AppDelegate.swift in Sources */,
+				5860323E4D44ED55F5E893EC /* MasterViewController.swift in Sources */,
+				586032D02FD35A9D1E676E50 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		586035487B185D3590B0EBB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58603A9C2F43CD3DD220738D /* MyDiablo */;
+			targetProxy = 58603A87088154667D047BE0 /* PBXContainerItemProxy */;
+		};
+		58603607B8A1D122D1B22D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58603A9C2F43CD3DD220738D /* MyDiablo */;
+			targetProxy = 586036BE4DA85C41B0140A4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58603AAB1DF5B10228497BC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				586035EA0A78B19F14C04CC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58603DDE48F3ABF72F4E5C7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				586030E506FA7AAB410B5A17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		586032FE4E2E94810DABCD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		586036C427C80EC0D6B18F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyDiabloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lego.MyDiabloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+				TEST_TARGET_NAME = MyDiablo;
+			};
+			name = Debug;
+		};
+		5860370635CB539E9D15F26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyDiablo.app/MyDiablo";
+				INFOPLIST_FILE = MyDiabloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lego.MyDiabloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		586038597BBC1AD186ECF7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5860398C94FC7F78E0B97A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyDiablo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lego.MyDiablo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+			};
+			name = Release;
+		};
+		58603B65A8BC3FAA338892AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyDiabloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lego.MyDiabloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+				TEST_TARGET_NAME = MyDiablo;
+			};
+			name = Release;
+		};
+		58603E274E6C4A840EBE9148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyDiablo.app/MyDiablo";
+				INFOPLIST_FILE = MyDiabloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lego.MyDiabloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		58603E830DA56CB33088A645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyDiablo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lego.MyDiablo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		586031D78C86237E49C38523 /* Build configuration list for PBXProject "MyDiablo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586032FE4E2E94810DABCD57 /* Debug */,
+				586038597BBC1AD186ECF7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5860398127692BF8E1488614 /* Build configuration list for PBXNativeTarget "MyDiablo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58603E830DA56CB33088A645 /* Debug */,
+				5860398C94FC7F78E0B97A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58603E0AE780C39EBE842F2A /* Build configuration list for PBXNativeTarget "MyDiabloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5860370635CB539E9D15F26D /* Debug */,
+				58603E274E6C4A840EBE9148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		58603E1AAD6D6840CD9E68B2 /* Build configuration list for PBXNativeTarget "MyDiabloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586036C427C80EC0D6B18F75 /* Debug */,
+				58603B65A8BC3FAA338892AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5860340C804C2A1CFE738C73 /* Project object */;
+}
